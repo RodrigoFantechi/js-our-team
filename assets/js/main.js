@@ -1,7 +1,7 @@
 /*
 Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team. Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
-MILESTONE 0: Creare l’array di oggetti con le informazioni fornite.
+
 MILESTONE 1: Stampare su console le informazioni di nome, ruolo e la stringa della foto
 MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
 
@@ -10,7 +10,6 @@ BONUS 2: Organizzare i singoli membri in card/schede  */
 
 
 const riga = document.querySelector('.row');
-
 const team = [
     {
         name: 'Wayne Barnett',
@@ -46,6 +45,12 @@ const team = [
 
 for (let i = 0; i < team.length; i++) {
     const persona = team[i];
+
+   // MILESTONE 1: Stampare su console le informazioni di nome, ruolo e la stringa della foto
+   for (const key in persona) {
+   console.log(key, persona[key]);
+   }
+   //MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe e BONUS
     const col = document.createElement('div');
     col.classList.add('col');
     const myCard = document.createElement('div');
