@@ -46,11 +46,6 @@ const team = [
 
 for (let i = 0; i < team.length; i++) {
     const persona = team[i];
-    // MILESTONE 1: Stampare su console le informazioni di nome, ruolo e la stringa della foto
-    for (const key in persona) {
-        console.log(key, persona[key]);
-    }
-    //MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe e BONUS 1-2
     const col = document.createElement('div');
     col.classList.add('col');
     const myCard = document.createElement('div');
