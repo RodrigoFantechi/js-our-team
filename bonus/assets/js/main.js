@@ -10,7 +10,6 @@ BONUS 2: Organizzare i singoli membri in card/schede  */
 
 
 const riga = document.querySelector('.row');
-
 const team = [
     {
         name: 'Wayne Barnett',
@@ -18,17 +17,17 @@ const team = [
         image: 'wayne-barnett-founder-ceo.jpg'
     },
     {
-        name: 'Angela',
+        name: 'Angela Caroll',
         role: 'Chief Editor',
         image: 'angela-caroll-chief-editor.jpg'
     },
     {
         name: 'Waleter gordon',
-        role: 'Chief Editor',
+        role: 'Office Manager',
         image: 'walter-gordon-office-manager.jpg'
     },
     {
-        name: 'Waleter gordon',
+        name: 'Angela Lopez',
         role: 'Social Media Manager',
         image: 'angela-lopez-social-media-manager.jpg'
     },
@@ -39,7 +38,7 @@ const team = [
     },
     {
         name: 'Barbara Ramos',
-        role: 'Grafic designer',
+        role: 'Grafic Designer',
         image: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
